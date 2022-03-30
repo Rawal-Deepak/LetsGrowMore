@@ -1,0 +1,50 @@
+h1{
+     font-size: 40px;
+     font-family: 'Times New Roman', Times, serif;
+     color: crimson;
+     text-align: center;
+}
+#calc{
+        height: 50px;
+        width: 250px;
+        border-radius: 10px;
+        background-color: darkolivegreen;
+        font-size: 30px;
+        color: white;
+}
+.btn{
+            font-size: 20px;
+            height: 50px;
+            width: 60px;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color: lavender;
+}
+.op{
+        font-size: 20px;
+        height: 50px;
+        width: 60px;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color:chocolate;
+}
+#clear{
+            width: 250px;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+            background-color: red;
+            color: white;
+}
+.Container{
+            margin-top: auto;
+            background-color : midnightblue;
+            height: 450px;
+            width: 300px;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+}
+

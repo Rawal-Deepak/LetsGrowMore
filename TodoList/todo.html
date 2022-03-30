@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Simple Javascript To Do List
+    </title>
+    <link href="todo.css" rel="stylesheet">
+    <script defer src="todo.js"></script>
+  </head>
+  <body>
+    <div id="todo-wrap">
+      <h1>TO DO LIST</h1>
+      <form id="todo-add">
+        <input type="text" id="todo-item" placeholder="New Todo" required/>
+        <input type="submit" id="todo-save" value="&#10010;"/>
+      </form>
+      <div id="todo-list"></div>
+      <template id="todo-template">
+      <div class="todo-row">
+        <input type="button" class="todo-del" value="&#10006;"/>
+        <div class="todo-item"></div>
+        <input type="button" class="todo-done" value="&#10004;"/>
+      </div>
+      </template>
+    </div>
+  </body>
+</html>
